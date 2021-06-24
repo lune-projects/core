@@ -1,0 +1,21 @@
+{
+    "name": "lune/core",
+    "description": "Core assets for Lune.",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lune\\Framework\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lune\\Framework\\Core\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "doctrine/annotations": "1.11.2",
+        "doctrine/cache": "1.11.3"
+    }
+}
